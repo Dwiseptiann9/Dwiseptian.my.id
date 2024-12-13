@@ -107,12 +107,11 @@ export function Resume() {
                     </ul>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-3 dark:text-white">Development Skills</h3>
+                    <h3 className="font-semibold mb-3 dark:text-white">Microfost Office</h3>
                     <ul className="space-y-2 text-gray-600 dark:text-gray-300">
-                      <li>React.js</li>
-                      <li>JavaScript/TypeScript</li>
-                      <li>HTML/CSS</li>
-                      <li>Blockchain Technology</li>
+                      <li>Microsoft Word</li>
+                      <li>Microsoft Excel</li>
+                      <li>Microsoft Power Point</li>
                     </ul>
                   </div>
                 </div>
