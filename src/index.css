@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply transition-colors duration-300 ease-in-out;
+  }
+
+  /* Dark mode input styles */
+  .dark input,
+  .dark textarea {
+    @apply bg-gray-800 border-gray-700 text-white placeholder-gray-400;
+  }
+
+  .dark input:focus,
+  .dark textarea:focus {
+    @apply border-blue-500 ring-blue-500;
+  }
+
+  /* Smooth transitions for all elements */
+  * {
+    @apply transition-colors duration-300;
+  }
+}
